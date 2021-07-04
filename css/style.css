@@ -37,8 +37,8 @@ h2, h3 {
 .box-a h3 {
   color: #fff;
   display: inline-block;
-  font-size: 45px;
-  transform: translate(10%, 240%) rotate(-90deg);
+  font-size: 40px;
+  transform: translate(20%, 320%) rotate(-90deg);
   white-space: nowrap;
 }
 
@@ -127,4 +127,23 @@ h2, h3 {
   color: #fff;
   font-size: 25px;
   font-weight: 600;
+}
+
+.box-h {
+  grid-column: 3 / span 4;
+  grid-row: 3;
+  padding: 4%  5%;
+  justify-self: end;
+}
+
+.box-h a {
+  color: #F02232;
+  font-size: 25px;
+  font-weight: 400;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.box-h a:hover {
+  text-decoration: underline;
 }
