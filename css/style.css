@@ -132,18 +132,13 @@ h2, h3 {
 .box-h {
   grid-column: 3 / span 4;
   grid-row: 3;
-  padding: 4%  5%;
+  padding: 1%  5%;
   justify-self: end;
 }
 
-.box-h a {
+.box-h p {
   color: #F02232;
   font-size: 25px;
   font-weight: 400;
-  text-decoration: none;
   text-transform: uppercase;
-}
-
-.box-h a:hover {
-  text-decoration: underline;
 }
