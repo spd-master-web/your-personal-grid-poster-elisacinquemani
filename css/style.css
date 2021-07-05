@@ -30,6 +30,7 @@ h2, h3 {
 
 .box-a {
   background-color: #FAD700;
+  
   grid-column: 1;
   grid-row: 1;
 }
@@ -44,8 +45,10 @@ h2, h3 {
 
 .box-b {
   background-color: #1022D1;
+
   grid-column: 2;
   grid-row: 1;
+
   padding: 5% 0 0 10%;
 }
 
@@ -58,6 +61,7 @@ h2, h3 {
 .box-c {
   grid-column: 3;
   grid-row: 1;
+
   padding: 0 30px;
 }
 
@@ -100,26 +104,30 @@ h2, h3 {
 }
 
 .box-f {
+  background-color: #1022D1;
+
   grid-column: 3 / span 4;
   grid-row: 2;
-  background-color: #1022D1;
+
   padding: 10% 5% 0 0;
   justify-self: end;
 }
 
 .box-f p {
   color: #fff;
-  font-size: 25px;
   float: right;
+  font-size: 25px;
   font-weight: 600;
   text-align: right;
   width: 50%;
 }
 
 .box-g {
+  background-color: #FAD700;
+
   grid-column: 1 / 3;
   grid-row: 3;
-  background-color: #FAD700;
+
   padding: 1% 5%;
 }
 
@@ -132,6 +140,7 @@ h2, h3 {
 .box-h {
   grid-column: 3 / span 4;
   grid-row: 3;
+
   padding: 1%  5%;
   justify-self: end;
 }
